@@ -10,7 +10,7 @@ $this->extend('layout');
 
 <section class="hero section-padding">
     <div class="container">
-        <h1>Hi, I'm Abigail<span class="accent">Multimedia Designer</span></h1>
+        <h1>Hi, I'm Magnus<span class="accent">Multimedia Designer</span></h1>
         <p class="tagline">I create modern and user-friendly web solutions with a focus on quality and performance.</p>
         <a href="/contact" class="button">Contact Me</a>
     </div>

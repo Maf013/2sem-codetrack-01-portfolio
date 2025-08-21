@@ -13,7 +13,7 @@ $this->extend('layout');
 <section class="page-header">
     <div class="container">
         <h1 class="page-heading">
-            Get in Touch
+            Get in touch
         </h1>
         <p class="page-intro">
             Have a question or want to collaborate? I'd love to hear from you. Feel free to reach out using the form below or through my social media channels.
