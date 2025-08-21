@@ -25,7 +25,7 @@ $this->extend('layout');
             <div class="about-text">
                 <h2 class="section-heading">Bio</h2>
                 <p>
-                    Hi, I'm a passionate web developer with a focus on building clean,
+                   hej børn a passionate web developer with a focus on building clean,
                     efficient, and user-friendly applications. I specialize in PHP
                     development and modern web technologies, with a particular interest
                     in creating robust back-end solutions.
