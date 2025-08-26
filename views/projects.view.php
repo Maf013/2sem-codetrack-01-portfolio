@@ -46,7 +46,7 @@ $this->extend('layout');
                         </p>
                         <div class="project-actions">
                             <a
-                                href="<?= htmlspecialchars($project->link) ?>"
+                                href="<?= htmlspecialchars($project->link) ?>" target="_blank"
                                 class="btn-view-project"
                             >
                                 View Project

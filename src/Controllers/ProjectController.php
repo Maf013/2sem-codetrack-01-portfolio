@@ -43,12 +43,13 @@ class ProjectController extends Controller
     {
         return [
             new ProjectDto(
-                title: 'Portfolio Website',
-                description: 'A modern portfolio website built from scratch with PHP. Features a clean, responsive design with a mobile-first approach, optimized performance, and maintainable object-oriented code following the MVC pattern. Includes custom form handling with rate limiting and a modular template system.',
+                title: 'Mit semester projekt',
+                description: 'Det her er mit semester eksamens projekt hvor jeg ville lave en hjemmeside som ville hjælpe mænd fra alderen 25-35 år med at komme mere ud socialicere ved hjælp af deres hoppies
+                . dsv var det et projekt som lykkedes men hjalp mig godt på vej til at lære kodning bedre at kende',
                 technologies: 'PHP, HTML5, CSS3, Responsive Design',
-                image: 'images/projects/portfolio.jpg',
+                image: 'images/projects/nyt.png',
                 code: 'https://github.com/madh-zealand/2sem-codetrack-01-portfolio',
-                link: '#portfolio',
+                link: 'https://sem1-eks.maf013.dk/',
             ),
             new ProjectDto(
                 title: 'Digital Guestbook',
