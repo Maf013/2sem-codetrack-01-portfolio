@@ -52,21 +52,75 @@ class ProjectController extends Controller
                 link: 'https://sem1-eks.maf013.dk/',
             ),
             new ProjectDto(
-                title: 'Digital Guestbook',
-                description: 'An interactive guestbook application that allows visitors to leave messages and engage with the community. Features user-friendly forms with validation, spam protection, and a clean interface. Messages are stored securely and displayed in a paginated format.',
-                technologies: 'PHP, MySQL, CSS Grid/Flexbox, Form Validation',
-                image: 'images/projects/guestbook.jpg',
+                title: 'Min gæstebog',
+                description: 'jeg fik lavet om på bagrunds farven og tilføjet Postnummer som også gemmer sig i databasen',
+                technologies: 'PHP,',
+                image: 'images/projects/guestbook.png',
                 code: 'https://github.com/madh-zealand/tba',
-                link: '#guestbook',
+                link: 'https://guestbook.maf013.dk/',
             ),
             new ProjectDto(
-                title: 'Browser Game',
-                description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
+                title: 'Storyboard ',
+                description: 'jeg fik tilføjet en knap hvor man kan lave 1 colunm',
+                technologies: 'JavaScript, HTML, CSS',
+                image: 'images/projects/webgame.jpg',
+                code: 'https://github.com/madh-zealand/tba',
+                link: 'https://storyboard.maf013.dk/',
+            ),
+
+            new ProjectDto(
+                title: 'Web Browser Game',
+                description: 'jeg fik ændret bagrund og handling',
                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
                 image: 'images/projects/webgame.jpg',
                 code: 'https://github.com/madh-zealand/tba',
-                link: '#webgame',
-            )
+                link: 'https://webspil.maf013.dk/',
+            ),
+            new ProjectDto(
+                title: 'ui widget',
+                description: 'jeg fik tiljevet 2 knapper som skifter farver',
+                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                image: 'images/projects/webgame.jpg',
+                code: 'https://github.com/madh-zealand/tba',
+                link: 'https://uiwidget.maf013.dk/',
+            ),
+            new ProjectDto(
+                title: 'mini crm',
+                description: 'jeg har ikke lavet noget på dette projekt',
+                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                image: 'images/projects/webgame.jpg',
+                code: 'https://github.com/madh-zealand/tba',
+                link: 'https://mini-crm.maf013.dk/login',
+            ),
+            new ProjectDto(
+                title: 'Presentation site',
+                description: 'jeg har gjordt at man kan bruge piltasterne til at navigere',
+                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                image: 'images/projects/Presen.png',
+                code: 'hhttps://github.com/madh-zealand/tba',
+                link: 'https://presentation.maf013.dk/',
+            ),
+            new ProjectDto(
+                title: 'ab testing tool',
+                description: 'jeg har ikke lavet noget på dette projekt',
+                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                image: 'images/projects/Ab.png',
+                code: 'https://github.com/madh-zealand/tba',
+                link: 'https://abtest.maf013.dk/',
+            ),
+            new ProjectDto(
+                title: 'style switcher',
+                description: 'jeg har fået lavet en ny style switcher knap som hedder Color som skifter farven på hele siden',
+                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                image: 'images/projects/webspil.png',
+                code: 'https://github.com/madh-zealand/tba',
+                link: 'https://styleswitcher.maf013.dk/',
+            ),
+
+
+
+
+
         ];
     }
 }
